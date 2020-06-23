@@ -1,6 +1,6 @@
 using System;
 
-namespace ext2
+namespace main_menu_item
 {
     public class WeatherForecast
     {

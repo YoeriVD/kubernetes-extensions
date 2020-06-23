@@ -1,0 +1,8 @@
+{
+  "appendTo": "main-menu",
+  "mainMenuOptions": {
+    "iconName": "directions_transit",
+    "description": "This is an extension",
+    "tag": "main-menu-item"
+  }
+}

@@ -24,6 +24,9 @@ namespace shell_site
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+            var extensionConfig = new ExtensionConfiguration();
+            Configuration.Bind(extensionConfig);
+            services.AddSingleton(extensionConfig);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
